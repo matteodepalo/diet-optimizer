@@ -6,8 +6,10 @@
   "scripts": {
     "build": "tsc",
     "test": "ts-node test-diet-optimizer.ts",
+    "test:lp": "ts-node test-diet-optimizer-lp.ts",
     "test:compiled": "tsc && node test-diet-optimizer.js",
-    "dev": "ts-node example-with-json.ts"
+    "dev": "ts-node example-with-json.ts",
+    "compare": "ts-node compare-optimizers.ts"
   },
   "keywords": [
     "diet",
@@ -22,5 +24,8 @@
     "@types/node": "^20.0.0",
     "ts-node": "^10.9.0",
     "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "javascript-lp-solver": "^0.4.24"
   }
 }

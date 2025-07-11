@@ -107,15 +107,39 @@ const diet = getDiet({
 3. **Realistic**: Produces practical serving sizes
 4. **Personalized**: Adapts to individual needs and goals
 
+## Linear Programming Refactoring
+
+The project now includes both approaches:
+
+### 1. Original Greedy Algorithm (`dietOptimizer.ts`)
+- **Pros**: Fast, produces varied diets, good nutrient coverage
+- **Cons**: May not find globally optimal solution
+- **Best for**: Users who want variety and quick results
+
+### 2. Linear Programming (`dietOptimizerLPSimple.ts`)
+- **Pros**: Globally optimal solution, guaranteed to meet constraints if feasible
+- **Cons**: May produce less varied diets, requires constraint relaxation
+- **Best for**: When optimality is more important than variety
+
+### Implementation Details
+- Uses `javascript-lp-solver` library
+- Minimizes total "cost" (preferring whole foods over supplements)
+- Constraints include calories, macros, and critical nutrients
+- Falls back to reasonable defaults if no feasible solution exists
+
 ## Areas for Future Enhancement
 
-1. **Optimization Method**: Could use linear programming for globally optimal solutions
-2. **Food Variety**: Add constraints to ensure dietary diversity
+1. **Advanced LP Models**: More sophisticated objective functions and constraints
+2. **Multi-Objective Optimization**: Balance between cost, variety, and nutrition
 3. **User Preferences**: Support for dietary restrictions, allergies, preferences
-4. **Cost Optimization**: Consider food costs in selection
+4. **Real-World Constraints**: Availability, seasonality, budget limits
 5. **Nutrient Timing**: Optimize nutrient distribution throughout the day
 6. **Phytonutrients**: Include antioxidants and other beneficial compounds
 
 ## Conclusion
 
-This algorithm provides a solid foundation for creating nutritionally complete diets. By prioritizing nutrient density and using intelligent scoring mechanisms, it produces diets that meet both macro and micronutrient targets while maintaining practical serving sizes.
+This algorithm provides two approaches for creating nutritionally complete diets:
+- The greedy algorithm offers speed and variety
+- The linear programming approach ensures global optimality
+
+Users can choose the approach that best fits their needs, whether they prioritize dietary variety or mathematical optimality.

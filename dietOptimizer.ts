@@ -88,7 +88,7 @@ interface NutrientTracking {
   percentage: number;
 }
 
-interface MacroTracking {
+export interface MacroTracking {
   protein: number;
   carbs: number;
   fat: number;

@@ -112,13 +112,46 @@ const diet = getDiet({
 3. **Iterative Refinement**: Fine-tunes amounts after initial selection
 4. **Practical Constraints**: Ensures realistic serving sizes
 
+## Linear Programming Implementation
+
+The project now includes a linear programming (LP) implementation alongside the original greedy algorithm:
+
+### Files:
+- **`dietOptimizerLPSimple.ts`**: Simplified LP optimizer with relaxed constraints
+- **`compare-optimizers.ts`**: Script to compare greedy vs LP approaches
+- **`test-diet-optimizer-lp.ts`**: Tests specifically for the LP optimizer
+
+### Key Differences:
+
+**Greedy Algorithm:**
+- Fast execution (~50ms)
+- Iteratively selects foods based on nutrient density
+- Produces varied diets with many ingredients
+- May not find globally optimal solution
+
+**Linear Programming:**
+- Finds globally optimal solution
+- Minimizes "cost" while meeting all constraints
+- Produces simpler diets with fewer ingredients
+- Requires constraint relaxation for feasibility
+
+### Usage:
+```typescript
+// Use greedy algorithm (default)
+import { getDiet } from './dietOptimizer';
+
+// Use linear programming
+import { getDiet } from './dietOptimizerLPSimple';
+```
+
 ## Future Enhancements
 
-- Linear programming for globally optimal solutions
+- Advanced LP models with more sophisticated constraints
+- Multi-objective optimization (cost, variety, preference)
 - Food group constraints and variety requirements
 - User preferences and restrictions
 - Seasonal availability considerations
-- Cost optimization
+- Cost optimization with real pricing data
 - Glycemic index considerations
 - Anti-nutrient interactions
 - Meal timing optimization for performance
