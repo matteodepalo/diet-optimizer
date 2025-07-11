@@ -1,0 +1,26 @@
+{
+  "name": "diet-optimizer",
+  "version": "1.0.0",
+  "description": "Algorithm for creating optimized diets for peak performance and longevity",
+  "main": "dietOptimizer.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "ts-node test-diet-optimizer.ts",
+    "test:compiled": "tsc && node test-diet-optimizer.js",
+    "dev": "ts-node example-with-json.ts"
+  },
+  "keywords": [
+    "diet",
+    "nutrition",
+    "optimization",
+    "health",
+    "fitness"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
+  }
+}

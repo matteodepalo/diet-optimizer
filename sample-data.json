@@ -1,0 +1,465 @@
+{
+  "nutrients": [
+    {
+      "name": "Vitamin A",
+      "nrv": 800,
+      "unit": "μg"
+    },
+    {
+      "name": "Vitamin C",
+      "nrv": 80,
+      "unit": "mg"
+    },
+    {
+      "name": "Vitamin D",
+      "nrv": 5,
+      "unit": "μg"
+    },
+    {
+      "name": "Vitamin E",
+      "nrv": 12,
+      "unit": "mg"
+    },
+    {
+      "name": "Vitamin K",
+      "nrv": 75,
+      "unit": "μg"
+    },
+    {
+      "name": "Thiamine (B1)",
+      "nrv": 1.1,
+      "unit": "mg"
+    },
+    {
+      "name": "Riboflavin (B2)",
+      "nrv": 1.4,
+      "unit": "mg"
+    },
+    {
+      "name": "Niacin (B3)",
+      "nrv": 16,
+      "unit": "mg"
+    },
+    {
+      "name": "Vitamin B6",
+      "nrv": 1.4,
+      "unit": "mg"
+    },
+    {
+      "name": "Folate",
+      "nrv": 200,
+      "unit": "μg"
+    },
+    {
+      "name": "Vitamin B12",
+      "nrv": 2.5,
+      "unit": "μg"
+    },
+    {
+      "name": "Calcium",
+      "nrv": 800,
+      "unit": "mg"
+    },
+    {
+      "name": "Iron",
+      "nrv": 14,
+      "unit": "mg"
+    },
+    {
+      "name": "Magnesium",
+      "nrv": 375,
+      "unit": "mg"
+    },
+    {
+      "name": "Zinc",
+      "nrv": 10,
+      "unit": "mg"
+    },
+    {
+      "name": "Potassium",
+      "nrv": 2000,
+      "unit": "mg"
+    },
+    {
+      "name": "Selenium",
+      "nrv": 55,
+      "unit": "μg"
+    },
+    {
+      "name": "Copper",
+      "nrv": 1,
+      "unit": "mg"
+    },
+    {
+      "name": "Manganese",
+      "nrv": 2,
+      "unit": "mg"
+    },
+    {
+      "name": "Phosphorus",
+      "nrv": 700,
+      "unit": "mg"
+    },
+    {
+      "name": "Iodine",
+      "nrv": 150,
+      "unit": "μg"
+    },
+    {
+      "name": "Omega-3 fatty acids",
+      "nrv": 250,
+      "unit": "mg"
+    }
+  ],
+  "ingredients": [
+    {
+      "name": "Chicken Breast (cooked)",
+      "macros": {
+        "protein": 31,
+        "carbs": 0,
+        "fat": 3.6
+      },
+      "nutrientsPercentages": {
+        "Thiamine (B1)": 7.3,
+        "Riboflavin (B2)": 7.9,
+        "Niacin (B3)": 85.6,
+        "Vitamin B6": 42.9,
+        "Vitamin B12": 12,
+        "Phosphorus": 32.3,
+        "Selenium": 48.4,
+        "Potassium": 15
+      }
+    },
+    {
+      "name": "Salmon (Atlantic, cooked)",
+      "macros": {
+        "protein": 20,
+        "carbs": 0,
+        "fat": 13
+      },
+      "nutrientsPercentages": {
+        "Vitamin D": 218,
+        "Vitamin B12": 112,
+        "Omega-3 fatty acids": 904,
+        "Selenium": 64.5,
+        "Vitamin B6": 47.1,
+        "Niacin (B3)": 43.8,
+        "Phosphorus": 35.7,
+        "Potassium": 24.5
+      }
+    },
+    {
+      "name": "Spinach (raw)",
+      "macros": {
+        "protein": 2.9,
+        "carbs": 3.6,
+        "fat": 0.4
+      },
+      "nutrientsPercentages": {
+        "Vitamin K": 644,
+        "Vitamin A": 58.6,
+        "Folate": 97,
+        "Vitamin C": 35,
+        "Manganese": 44.7,
+        "Iron": 19.3,
+        "Magnesium": 21.1,
+        "Potassium": 27.9
+      }
+    },
+    {
+      "name": "Sweet Potato (cooked)",
+      "macros": {
+        "protein": 1.6,
+        "carbs": 20,
+        "fat": 0.1
+      },
+      "nutrientsPercentages": {
+        "Vitamin A": 88.6,
+        "Manganese": 25.8,
+        "Potassium": 16.9,
+        "Copper": 16.1,
+        "Vitamin B6": 15.5,
+        "Vitamin C": 3
+      }
+    },
+    {
+      "name": "Almonds",
+      "macros": {
+        "protein": 21,
+        "carbs": 22,
+        "fat": 49
+      },
+      "nutrientsPercentages": {
+        "Vitamin E": 216.7,
+        "Manganese": 114.1,
+        "Magnesium": 71.5,
+        "Riboflavin (B2)": 81.4,
+        "Phosphorus": 68.6,
+        "Copper": 103.1,
+        "Calcium": 33,
+        "Zinc": 31
+      }
+    },
+    {
+      "name": "Greek Yogurt (non-fat)",
+      "macros": {
+        "protein": 10,
+        "carbs": 3.6,
+        "fat": 0.4
+      },
+      "nutrientsPercentages": {
+        "Vitamin B12": 20,
+        "Riboflavin (B2)": 21.4,
+        "Calcium": 13.8,
+        "Phosphorus": 22.3,
+        "Selenium": 26.4,
+        "Potassium": 7
+      }
+    },
+    {
+      "name": "Broccoli (cooked)",
+      "macros": {
+        "protein": 2.8,
+        "carbs": 7,
+        "fat": 0.4
+      },
+      "nutrientsPercentages": {
+        "Vitamin C": 111.3,
+        "Vitamin K": 136,
+        "Folate": 31.5,
+        "Vitamin A": 15.1,
+        "Manganese": 10.3,
+        "Potassium": 15.8
+      }
+    },
+    {
+      "name": "Eggs (whole, cooked)",
+      "macros": {
+        "protein": 13,
+        "carbs": 1.1,
+        "fat": 11
+      },
+      "nutrientsPercentages": {
+        "Vitamin B12": 36,
+        "Vitamin D": 40,
+        "Riboflavin (B2)": 35.7,
+        "Selenium": 46.8,
+        "Vitamin A": 20,
+        "Phosphorus": 28.3,
+        "Folate": 11.5,
+        "Iron": 12.9
+      }
+    },
+    {
+      "name": "Oats (cooked)",
+      "macros": {
+        "protein": 2.5,
+        "carbs": 12,
+        "fat": 1.5
+      },
+      "nutrientsPercentages": {
+        "Manganese": 34.1,
+        "Phosphorus": 12.3,
+        "Thiamine (B1)": 9.5,
+        "Iron": 7.4,
+        "Magnesium": 7.2,
+        "Zinc": 6.7
+      }
+    },
+    {
+      "name": "Brown Rice (cooked)",
+      "macros": {
+        "protein": 2.6,
+        "carbs": 23,
+        "fat": 0.9
+      },
+      "nutrientsPercentages": {
+        "Manganese": 44.2,
+        "Magnesium": 10.7,
+        "Selenium": 21.3,
+        "Phosphorus": 11.4,
+        "Niacin (B3)": 9.4,
+        "Thiamine (B1)": 9.1
+      }
+    },
+    {
+      "name": "Lentils (cooked)",
+      "macros": {
+        "protein": 9,
+        "carbs": 20,
+        "fat": 0.4
+      },
+      "nutrientsPercentages": {
+        "Folate": 89.5,
+        "Manganese": 24.6,
+        "Iron": 23.5,
+        "Phosphorus": 25.4,
+        "Copper": 25.1,
+        "Thiamine (B1)": 15.5,
+        "Potassium": 18.3
+      }
+    },
+    {
+      "name": "Avocado",
+      "macros": {
+        "protein": 2,
+        "carbs": 8.5,
+        "fat": 15
+      },
+      "nutrientsPercentages": {
+        "Vitamin K": 28,
+        "Folate": 20.3,
+        "Vitamin C": 12.5,
+        "Potassium": 24.3,
+        "Vitamin E": 17.5,
+        "Vitamin B6": 18.6,
+        "Copper": 19
+      }
+    },
+    {
+      "name": "Blueberries",
+      "macros": {
+        "protein": 0.7,
+        "carbs": 14,
+        "fat": 0.3
+      },
+      "nutrientsPercentages": {
+        "Vitamin K": 25.5,
+        "Manganese": 16.8,
+        "Vitamin C": 12.1,
+        "Vitamin E": 4.8
+      }
+    },
+    {
+      "name": "Quinoa (cooked)",
+      "macros": {
+        "protein": 4.4,
+        "carbs": 21.3,
+        "fat": 1.9
+      },
+      "nutrientsPercentages": {
+        "Manganese": 31.8,
+        "Phosphorus": 21.1,
+        "Magnesium": 16.5,
+        "Folate": 10.3,
+        "Iron": 10.6,
+        "Copper": 19.3
+      }
+    },
+    {
+      "name": "Kale (raw)",
+      "macros": {
+        "protein": 2.9,
+        "carbs": 4.4,
+        "fat": 0.5
+      },
+      "nutrientsPercentages": {
+        "Vitamin K": 893.3,
+        "Vitamin A": 51.3,
+        "Vitamin C": 100,
+        "Manganese": 32.8,
+        "Calcium": 13.5,
+        "Copper": 14.3
+      }
+    },
+    {
+      "name": "Chia Seeds",
+      "macros": {
+        "protein": 17,
+        "carbs": 42,
+        "fat": 31
+      },
+      "nutrientsPercentages": {
+        "Omega-3 fatty acids": 7136,
+        "Phosphorus": 123,
+        "Calcium": 78.8,
+        "Manganese": 135,
+        "Magnesium": 89.3,
+        "Selenium": 100.2
+      }
+    },
+    {
+      "name": "Beef (lean, cooked)",
+      "macros": {
+        "protein": 26,
+        "carbs": 0,
+        "fat": 8.2
+      },
+      "nutrientsPercentages": {
+        "Vitamin B12": 104,
+        "Zinc": 64,
+        "Selenium": 51.3,
+        "Niacin (B3)": 33.8,
+        "Vitamin B6": 36.4,
+        "Iron": 18.6,
+        "Phosphorus": 30
+      }
+    },
+    {
+      "name": "Tofu (firm)",
+      "macros": {
+        "protein": 8,
+        "carbs": 2,
+        "fat": 4.8
+      },
+      "nutrientsPercentages": {
+        "Calcium": 35,
+        "Iron": 11.4,
+        "Manganese": 30.3,
+        "Selenium": 17.4,
+        "Copper": 19.3,
+        "Phosphorus": 13.6
+      }
+    },
+    {
+      "name": "Brussels Sprouts (cooked)",
+      "macros": {
+        "protein": 3.4,
+        "carbs": 9,
+        "fat": 0.3
+      },
+      "nutrientsPercentages": {
+        "Vitamin K": 235.7,
+        "Vitamin C": 103.8,
+        "Folate": 30.5,
+        "Manganese": 16.8,
+        "Vitamin A": 12.3,
+        "Potassium": 19.4
+      }
+    },
+    {
+      "name": "Walnuts",
+      "macros": {
+        "protein": 15,
+        "carbs": 14,
+        "fat": 65
+      },
+      "nutrientsPercentages": {
+        "Omega-3 fatty acids": 3636,
+        "Manganese": 170.5,
+        "Copper": 159,
+        "Magnesium": 42.1,
+        "Phosphorus": 49.4,
+        "Vitamin B6": 38.6
+      }
+    }
+  ],
+  "meals": [
+    {
+      "name": "Breakfast",
+      "kcalPercentage": 25
+    },
+    {
+      "name": "Lunch",
+      "kcalPercentage": 35
+    },
+    {
+      "name": "Dinner",
+      "kcalPercentage": 35
+    },
+    {
+      "name": "Snack",
+      "kcalPercentage": 5
+    }
+  ]
+}
